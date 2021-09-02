@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUST_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Guess_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hello_Cargo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Hello_Cargo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Data_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Variable/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Control_flow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Function/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Owner/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Struct/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Hello_Cargo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Hello_Cargo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Guess_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Variable/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Data_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Function/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Control_flow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Owner/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Slice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Struct/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

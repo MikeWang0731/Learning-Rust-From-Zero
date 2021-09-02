@@ -1,0 +1,10 @@
+# Project exclude paths
+/Control_flow/target/
+/Data_type/target/
+/Function/target/
+/Guess_game/target/
+/Hello_Cargo/target/
+/Owner/target/
+/Slice/target/
+/Struct/target/
+/target/
