@@ -5,7 +5,7 @@ struct User {
     sign_in_count: u64,
     active: bool,
 }
-
+// Struct可以作为函数的返回值
 // fn area(width: u32, length: u32) -> u32 {
 //     width * length
 // }
@@ -37,7 +37,7 @@ fn area(rect: &Rectangle) -> u32 {
 }
 
 fn main() {
-
+    // 当这个struct可变时，里面的每一个元素都可变
     // 实例化User，若要在之后更新user1的内容，则需要设定user1为可变(mut)
     let mut user1 = User {
         username: String::from("Tom"),

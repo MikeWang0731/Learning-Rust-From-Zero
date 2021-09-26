@@ -35,3 +35,14 @@
     - 字符串切片
     - 字符串切片的引用 &str
     - 普通数组的切片
+10. Struct
+    - 初始化，且可作为返回值，可变性，实例化
+    - Tuple Struct, Unit-like Struct
+    - impl, 关联函数
+    - 匿名Struct
+11. Enum 枚举
+    - 创建，变体，枚举值
+    - 将数据附加到枚举的变体中
+    - impl为枚举定义方法
+    - Option枚举
+    - Match：模式匹配和枚举/绑定值的模式
