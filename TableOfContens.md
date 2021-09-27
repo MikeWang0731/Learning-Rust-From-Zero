@@ -10,7 +10,7 @@
     - 生成随机数
     - match (switch控制语句)
     - use/let/loop
-    - .expect()/.expect() with match
+    - `.expect()`/`.expect()` with match
 4. Variable
     - 变量可变/不可变，即mut关键字
     - 遮蔽机制: shadow
@@ -57,9 +57,9 @@
     - 将模块放在其他文件
 13. use关键字，as关键字
     - 引用包，模块
-    - as：类似于python -> import A as alpha
+    - as：类似于python -> `import A as alpha`
     - use也可以加上pub关键字
-    - 嵌套路径引入包：use::std::{cmp::Ordering,io}
+    - 嵌套路径引入包：`use::std::{cmp::Ordering,io}`
     - '*'使用通配符引入，需要谨慎
 14. Vector
     - 由标准库提供，存储多个值，存相同类型数据，内存中连续存放
@@ -71,8 +71,16 @@
     - 初始化
     - 按索引访问，切片(需要按边界切割)
 16. HashMap
-    - <key,value>,key为同一种数据类型,value为同一种数据类型
+    - `<key,value>`,key为同一种数据类型,value为同一种数据类型
     - 创建，添加，访问，遍历，更新
     - 使用collect方法创建
     - 如i32这种copy trait的类型，值会复制到hashmap中
     - 如String这种拥有所有权的，值会移动，所有权转移给hashmap
+17. Panic
+    - panic();
+18. Result 枚举
+    - `Result<T,E> {Ok(T),Err(E)}`
+    - 错误处理，传播错误
+    - `unwrap();`
+    - `？`运算符和`Box<>`
+19. Generic 泛型
