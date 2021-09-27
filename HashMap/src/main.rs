@@ -24,4 +24,28 @@ fn main() {
     for (k, v) in &scores {
         println!("{}:{}", k, v);
     };
+
+
+    let mut new_scores = HashMap::new();
+    new_scores.insert(String::from("Blue"), 10);
+    // 更新
+    // 替换现有的：new_scores.insert(String::from("Blue"), 10);
+    new_scores.insert(String::from("Blue"), 15);
+
+    // 在key不对应任何值的情况下，插入v -> 检查Yellow是否有对应的Value，若没有则加入"50"
+    new_scores.entry(String::from("Yellow")).or_insert(50);
+    println!("{:?}", new_scores);
+
+    // 基于现有的value来更新value
+    let text = "Hello World Wonderful World";
+    let mut text_map = HashMap::new();
+    for word in text.split_whitespace() {
+        // 将当前单词计入map，若第一次出现，则value是0
+        let count = text_map.entry(word).or_insert(0);  // 等号右边对应的是value
+        // 将当前value值+1
+        *count += 1;
+    }
+    println!("{:?}", text_map);
+
+
 }

@@ -72,7 +72,7 @@
     - 按索引访问，切片(需要按边界切割)
 16. HashMap
     - <key,value>,key为同一种数据类型,value为同一种数据类型
-    - 创建，添加，访问，遍历
+    - 创建，添加，访问，遍历，更新
     - 使用collect方法创建
     - 如i32这种copy trait的类型，值会复制到hashmap中
     - 如String这种拥有所有权的，值会移动，所有权转移给hashmap
