@@ -61,3 +61,18 @@
     - use也可以加上pub关键字
     - 嵌套路径引入包：use::std::{cmp::Ordering,io}
     - '*'使用通配符引入，需要谨慎
+14. Vector
+    - 由标准库提供，存储多个值，存相同类型数据，内存中连续存放
+    - 添加、删除(作用域内有效)、读取
+    - Vec和enum
+15. String
+    - Rust的核心层面只提供了一个字符串，就是str类型
+    - String来自于标准库，而不是核心
+    - 初始化
+    - 按索引访问，切片(需要按边界切割)
+16. HashMap
+    - <key,value>,key为同一种数据类型,value为同一种数据类型
+    - 创建，添加，访问，遍历
+    - 使用collect方法创建
+    - 如i32这种copy trait的类型，值会复制到hashmap中
+    - 如String这种拥有所有权的，值会移动，所有权转移给hashmap

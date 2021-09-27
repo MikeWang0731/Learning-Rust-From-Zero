@@ -16,7 +16,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Slice/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Struct/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashMap/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/My-Project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vector/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/Hello_Cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/Hello_Cargo/target" />
@@ -31,6 +34,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Struct/target" />
       <excludeFolder url="file://$MODULE_DIR$/Enum/target" />
       <excludeFolder url="file://$MODULE_DIR$/My-Project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Vector/target" />
+      <excludeFolder url="file://$MODULE_DIR$/String/target" />
+      <excludeFolder url="file://$MODULE_DIR$/HashMap/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
