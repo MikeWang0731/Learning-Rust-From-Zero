@@ -46,3 +46,18 @@
     - impl为枚举定义方法
     - Option枚举
     - Match：模式匹配和枚举/绑定值的模式
+    - if-let: 处理只关心一种匹配而忽略其他匹配情况 
+12. Package, Library, Module, Path
+    - 包含关系，定义
+    - Path的绝对路径：从crate root开始
+    - Path的相对路径：从模块开始，使用self或者super
+    - 私有边界：默认所有的条目都是私有的，外界访问不到，根级别除外
+    - pub struct/enum: s是公共的，s下的字段是私有的！e本身就公共
+    - 需要单独设置pub才能变为公有
+    - 将模块放在其他文件
+13. use关键字，as关键字
+    - 引用包，模块
+    - as：类似于python -> import A as alpha
+    - use也可以加上pub关键字
+    - 嵌套路径引入包：use::std::{cmp::Ordering,io}
+    - '*'使用通配符引入，需要谨慎
