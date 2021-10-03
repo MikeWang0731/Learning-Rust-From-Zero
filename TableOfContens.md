@@ -84,3 +84,10 @@
     - `unwrap();`
     - `？`运算符和`Box<>`
 19. Generic 泛型
+20. Trait 特征
+    - 抽象定义了共享的行为，类似interface
+    - 为struct实现trait
+    - trait约束：孤儿原则
+    - trait作为参数传入方法
+    - where
+    - 为有条件的impl实现单独的trait
