@@ -89,5 +89,17 @@
     - 为struct实现trait
     - trait约束：孤儿原则
     - trait作为参数传入方法
-    - where
+    - `where`
     - 为有条件的impl实现单独的trait
+21. Lifetime 生命周期
+    - 让引用保持有效的作用域，避免悬垂引用
+    - 写于`struct`,`fn`,`impl`
+    - `'static`
+22. 自动化测试 test
+    - 测试是个函数，验证非测试代码是否和预期一致
+    - 断言`Assert` (Arrange-Act-Assert)
+    - 需要test属性`#[test]`
+    - 使用`cargo test`
+    - `assert`,`assert_eq!/ne!`,可以添加自定义信息(第三个参数)
+23. should_panic 检查恐慌
+    - 当发生panic时测试通过，反之失败
